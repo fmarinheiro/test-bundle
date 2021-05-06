@@ -1,0 +1,14 @@
+{
+    "name": "fmarinheiro/test-bundle",
+    "description": "Assertions to validate method input/output with nice error messages.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fm\\TestBundle\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-kernel": "^5.2"
+    }
+}
